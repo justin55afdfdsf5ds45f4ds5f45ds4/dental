@@ -67,7 +67,7 @@ export const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
 
                 {/* Message */}
                 <p className="text-[#2d2d2d] font-sans mb-6 leading-relaxed">
-                  Please call us to book your appointment and let's create that perfect smile together!
+                  Please call us to book your appointment and let&apos;s create that perfect smile together!
                 </p>
 
                 {/* Phone Number */}
