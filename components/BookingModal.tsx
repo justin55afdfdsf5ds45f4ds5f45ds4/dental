@@ -74,17 +74,17 @@ export const BookingModal = ({ isOpen, onClose }: BookingModalProps) => {
                 <div className="bg-gray-50 border-2 border-gray-200 rounded-xl p-6 mb-6">
                   <p className="font-sans text-sm text-gray-600 mb-2">Call us now</p>
                   <a
-                    href="tel:09867005439"
+                    href="tel:+919867005439"
                     className="text-3xl font-sans text-[#c97b63] hover:text-[#8b9b8a] transition-colors block"
                   >
-                    09867005439
+                    +91 9867005439
                   </a>
                 </div>
 
                 {/* Action Buttons */}
                 <div className="flex gap-3">
                   <a
-                    href="tel:09867005439"
+                    href="tel:+919867005439"
                     className="flex-1 bg-[#c97b63] text-white px-6 py-3 rounded-full font-sans font-medium hover:bg-[#b56e58] transition-colors flex items-center justify-center gap-2"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

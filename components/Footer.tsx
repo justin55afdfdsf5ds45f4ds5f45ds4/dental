@@ -38,8 +38,8 @@ export const Footer = () => {
               <p>Apollo Bandar, Colaba,</p>
               <p>Mumbai, Maharashtra 400005</p>
               <p>
-                <a href="tel:09867005439" className="hover:text-[#c97b63] transition-colors">
-                  09867005439
+                <a href="tel:+919867005439" className="hover:text-[#c97b63] transition-colors">
+                  +91 9867005439
                 </a>
               </p>
             </div>

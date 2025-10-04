@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { BookingModal } from './BookingModal';
@@ -33,8 +34,17 @@ export const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="text-2xl font-serif font-bold text-[#c97b63] hover:text-[#8b9b8a] transition-colors">
-                The Tooth Studio
+              <Link href="/" className="flex items-center space-x-3">
+                <Image
+                  src="https://res.cloudinary.com/dfzlugyei/image/upload/v1759543582/Untitled_design_2_p3hctr.png"
+                  alt="The Tooth Studio Logo"
+                  width={50}
+                  height={50}
+                  className="rounded-full"
+                />
+                <span className="text-2xl font-serif font-bold text-[#c97b63] hover:text-[#8b9b8a] transition-colors">
+                  The Tooth Studio
+                </span>
               </Link>
             </div>
 
